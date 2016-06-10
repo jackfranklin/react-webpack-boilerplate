@@ -1,0 +1,25 @@
+{
+  "name": "white-october",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server --port=3001 --ignore=src/",
+    "build": "webpack --config webpack.config.dev.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.9.1",
+    "babel-loader": "6.2.4",
+    "babel-preset-react": "6.5.0",
+    "live-server": "1.0.0",
+    "webpack": "1.13.1",
+    "webpack-notifier": "1.3.0"
+  },
+  "dependencies": {
+    "react": "15.1.0",
+    "react-dom": "15.1.0"
+  }
+}
